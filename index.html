@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h3>Passward Validator</h3>
+            <label for="">Email</label>
+            <input type="text" name="email" id="email" autocomplete="off">
+            <label for="">Passward</label>
+            <input type="password" name="" id="pass1" autocomplete="off">
+            <label for="">confirm</label>
+            <input type="password" id="pass2" autocomplete="off">
+           <div class="error">
+            <p id="email-ans"></p>
+            <p id="8char"></p>
+            <p id="uppercase"></p>
+            <p id="lowercase"></p>
+            <p id="specialchar"></p>
+            <div class="digit1"></div>
+            <p id="notmatch"></p>
+           </div>
+            <button type="submit" id="submit" onclick="validate()">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
